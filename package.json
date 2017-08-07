@@ -9,7 +9,7 @@
     "readmeFilename": "README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/IntelligentSigma/HamLicenses-FCC"
+        "url": "https://github.com/IntelligentSigma/HamLicenses-FCC.git"
     },
     "dependencies": {
     },
