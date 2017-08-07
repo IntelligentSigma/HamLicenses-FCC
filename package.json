@@ -1,5 +1,5 @@
 {
-    "name": "automation-google",
+    "name": "HamLicenses-FCC",
     "version": "1.0.3",
     "keywords": ["util", "functional", "client", "browser"],
     "contributors": ["petersenrr"],
@@ -9,7 +9,7 @@
     "readmeFilename": "README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/IntelligentSigma/automation-google.git"
+        "url": "https://github.com/IntelligentSigma/HamLicenses-FCC"
     },
     "dependencies": {
     },
