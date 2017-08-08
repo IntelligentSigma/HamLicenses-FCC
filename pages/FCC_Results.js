@@ -1,22 +1,22 @@
-var FCC_Results = (function () {
-  function FCC_Results() {
+var Results = (function () {
+  function Results() {
 
 
-    this.SearchResultsCount = 'tbody tr td div table tbody tr .cell-pri-dark table tbody tr [valign="middle"].cell-pri-dark';
-    this.SearchPageError = 'body table tbody tr td table tbody tr .cell-pri-light a';
-    this.SearchPageNew = 'tbody tr td div table tbody tr td table tbody tr td a[title="New Search"]';
+    this.searchResultsCount = 'tbody tr td div table tbody tr .cell-pri-dark table tbody tr [valign="middle"].cell-pri-dark';
+    this.searchPageError = 'body table tbody tr td table tbody tr .cell-pri-light a';
+    this.searchPageNew = 'tbody tr td div table tbody tr td table tbody tr td a[title="New Search"]';
 
   }
 
 
-  FCC_Results.prototype.getSearchResultsCount = function () {   return this.SearchResultsCount;  };
-  FCC_Results.prototype.getSearchPageError = function () {   return this.SearchPageError;  };
-  FCC_Results.prototype.getSearchPageNew = function () {   return this.SearchPageNew;  };
+  Results.prototype.getSearchResultsCount = function () {   return this.searchResultsCount;  };
+  Results.prototype.getSearchPageError = function () {   return this.searchPageError;  };
+  Results.prototype.getSearchPageNew = function () {   return this.searchPageNew;  };
 
 
-  return FCC_Results;
+  return Results;
 
 
 })();
 
-module.exports = FCC_Results;
+module.exports = Results;
