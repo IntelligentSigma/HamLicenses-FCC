@@ -16,8 +16,8 @@ var FCC_Search = (function () {
 
 
   FCC_Search.prototype.visitFCC = function () {
-    console.log("url:" + browser.testEnv.baseUrl);
-    browser.get(browser.testEnv.baseUrl);
+    console.log("url:" + browser.testEnv.baseUrl + "searchAmateur.jsp");
+    browser.get(browser.testEnv.baseUrl + "searchAmateur.jsp");
   };
 
 
